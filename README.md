@@ -1,9 +1,9 @@
 # socketstcp
 <h1 align="center">BUS BOOKING SYSTEM</h1>
-<h5>AIM: To use sockets and establish a client-server connection using TCP connections between them.</h5>
+<h3>AIM: To use sockets and establish a client-server connection using TCP connections between them.</h3>
 <p>Mainly our project aims to use sockets and do a back end for a bus booking system.We have used the basic socket package provided in python 2.7 along with threads and psycopg2 which is the python client for POSTGRESQL.<br>Our approach was to create threads for each process (i.e., client) and thereby define a class with a default run function which runs on every execution of the server file.<br>We have created a database named bus_ware in postgresql which has three tables bus_info which has the list of all the buses, route_table which has the routes for each bus between destinations and at last a seats table which has the seats information for a given bus on a requested date.<br>In the client side we take the required information and receive it on the client side and thereby perform queries in the postgres database and fetch the results using the fetchall function and send the fetched information to the client.After each query we commit the changes on the database.</p>
 <p>
-	<h5>Features or the execution order of a transaction:</h5>
+	<h4>Features or the execution order of a transaction:</h4>
 	<ul>
 	<li>We ask the client for the service either reservation or cancellation</li>
 	<li>If reservation, we ask for the date of journey</li>
@@ -22,7 +22,7 @@
 </p>
 
 
-<p><h5>SETUP:</h5><ol>
+<p><h4>SETUP:</h4><ol>
 	<li>Install postgresql in your linux system or windows</li>
 	<li>Install its python client psycopg2 (pip install psycopg2)</li>
 <li>In the server.py, we have connected postgres with my password, so just do a alter user and set your own password and then run it.</li>
@@ -39,4 +39,4 @@
 	<li><a href="https://www.linkedin.com/in/gaganjchandra-29011998/">Gagan C J</a></li>
 </ul>
 
-> ignore the team information
+> Ignore the team information
