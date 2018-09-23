@@ -7,8 +7,8 @@
 	<ul>
 	<li>We ask the client for the service either reservation or cancellation</li>
 	<li>If reservation, we ask for the date of journey</li>
-	<li>Then we ask for bus type either **SLEEPER/SEMI_SLEEPER/SEATER**</li>
-	<li>Then followed by the <em>ac_provision</em> **AC/NON_AC**</li>
+	<li>Then we ask for bus type either <b>SLEEPER/SEMI_SLEEPER/SEATER</b></li>
+	<li>Then followed by the <em>ac_provision</em> <b>AC/NON_AC</b></li>
 	<li>now, mainly the source and the destination</li>
 	<li>We send all the above information to the server and then display list the buses available between the desired stations.</li>
 	<li>The user selects the bus ID for the journey</li>
@@ -34,9 +34,9 @@
 	<li>Authenticate each user, else there will be security issues.</li>
 </ul>
 <ul>TEAM MEMBERS:
-	<li>[GADICHERLA SAMEER](https://www.linkedin.com/in/sameerg07/)</li>
-	<li>[ROHTIH GADAMSETTY](http://www.google.com/profiles/107164665008178006276)</li>
-	<li>[GAGAN C J](https://www.linkedin.com/in/gaganjchandra-29011998/)</li>
+	<li><a href="https://www.linkedin.com/in/sameerg07/">Gadicherla Sameer</a></li>
+	<li><a href="http://www.google.com/profiles/107164665008178006276">Rohith Gadamshetty</a></li>
+	<li><a href="https://www.linkedin.com/in/gaganjchandra-29011998/">Gagan C J</a></li>
 </ul>
 
 > ignore the team information
